@@ -1,0 +1,221 @@
+<html>
+    <head>
+        <title>Picture View</title>
+        <link rel="icon" href="./images/favicon.ico" type="image/x-icon"　/>
+        <style>
+            body {
+                font-family: 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #818181;
+                /* font-weight: 340; */
+            }
+            a {
+                text-decoration:none;
+                color:#727272;
+            }
+            h1 {
+                color: #42465B; font-size: 42px;
+                margin: 0 0 10px 0;
+            }
+            h2 {
+                color: #42465B; font-size: 27px;
+                margin: 0 0 10px 0;
+                font-weight: 300;
+            }
+            h3 {
+                font-size: 27px;
+                margin: 0 0 10px 0;
+            }
+
+            .white_rect {
+                position: absolute;
+                background-color: #fff;
+                border-radius: 100px;
+                width: 600px;
+                height: 600px;
+            }
+
+            .desc_block {
+                display: flex;
+                align-items: center; 
+                background: #fff;
+                padding: 40px 50px;
+                border-radius: 30px;
+                margin-bottom: 60px;
+            }
+
+            .desc_block p {
+                font-size: 18px;
+            }
+
+            .download_btn {
+                display: inline-block; background: #28CD44; height: 40px; padding: 0 33px;height: 40px; line-height: 40px; color: #fff;font-size: 18px;font-weight: bold;border-radius: 5px;
+            }
+
+            .gif_box {
+                overflow: hidden;
+                box-shadow: 0 10px 40px rgba(0,0,0,0.65);
+                border-radius: 5px;
+                width: 360px;
+                height: 263; 
+                background-repeat: no-repeat;
+                background-size: 362px 263px;
+                background-position: center;
+            }
+
+        </style>
+        <script>
+            const last_version = "1.0.0 (2021.6.26)"
+            const last_version_link = "https://wl879.github.io/apps/picview/archives/PictureView_1.0.0.dmg"
+
+            const en_contents = {
+                s_menu_home: "Home",
+                s_menu_desc: "Introduced",
+                s_menu_about: "About",
+                s_title: "Image viewer for MacOS",
+                s_desc: "Picture View - is a lightweight MacOS photo browsing app. Small size (7.8MB), you can quickly and easily view the image, does not produce any cache, suitable for the default image viewing application. A variety of view mode, support scrolling and sliding switch, support to view EXIF information, support to prevent system sleep...",
+                s_free_download: "Free Download",
+                s_version: "version",
+                s_support: "Support: MacOS 11.0+ with M1 and Intel chips",
+                s_title_1: "Two modes of looking at pictures",
+                s_desc_1: "You can browse a single image, scroll through it like a document, and you can choose to browse in multiple columns. It is friendly to long images, and you can see pictures more clearly",
+                s_title_2: "Convenient operation",
+                s_desc_2: "Optimize the mouse wheel switching image experience. Double-click to resize the image. Long press to enlarge the picture. Support right click menu...",
+                s_title_3: "Practical function",
+                s_desc_3: "Support top picture, and prevent the system sleep, easy to view the picture work. Support view picture EXIF information, support multi-window"
+            }
+        </script>
+    </head>
+    <body style="padding: 0; margin: 0; background-color: #f6f8fc;  ">
+        <div style="position: absolute; width: 100%; height: 1000px; overflow: hidden;">
+            <div id="animate_backgrund" style="position: absolute; left: 50%;">
+                <div class="white_rect" style="transform: translate(-1000px, -400px) rotate(30deg);"></div>
+                <div class="white_rect" style="transform: translate(500px, -100px) rotate(50deg);"></div>
+                <div class="white_rect" style="transform: translate(-300px, 600px) rotate(20deg);"></div>
+            </div>
+        </div>
+
+        <div style="position: relative; max-width: 1000px; margin: 0 auto;">
+        
+            <div style="display: flex; margin-bottom: 20px;">
+                <div style="flex: 1;"></div>
+                <div style="display: flex; line-height: 50px;">
+                    <div style="margin-right: 20px;"><a href=""><span s="s_menu_home">主页</span></a></div>
+                    <div style="margin-right: 20px;"><a href="#desc"><span s="s_menu_desc">应用介绍</span></a></div>
+                    <div><a href=""><span s="s_menu_about">关于作者</span></a></div>
+                </div>
+            </div>
+
+            <div style="display: flex; margin-bottom: 120px; ">
+                <div style="width: 50%;">
+                    <image src="./images/icon_512X512.png" style="display:block;width: 360px;height: auto;"/>
+                </div>
+                <div style="width: 400px;">
+                    <h1 >Picture View</h1>
+                    <h3 style="font-weight: 300;"><span s="s_title">MacOS 图片浏览应用</span></h3>
+                    <div style="font-size: 16px; margin-bottom: 20px;"><span s="s_desc">Picture View - 是一款轻巧的 macOS 图片浏览应用。体积小巧（7.8MB），可以方便快捷的查看图片，不会产生任何缓存，适合替代默认看图应用。多种的查看模式，支持滚动与滑动切换，支持查看EXIF信息，支持防止系统休眠...</span></div>
+                    <div style="margin-bottom: 10px;">
+                        <a class="download_btn" href="https://wl879.github.io/apps/picview"><span s="s_free_download">免费下载</span></a>
+                    </div>
+                    <div style="font-size: 12px;"><span s="s_version">版本</span>:<span class="version"></span></div>
+                    <div style="font-size: 12px;"><span s="s_support">支持: MacOS 11.0+ 适配 M1 和 Intel 芯片</span></div>
+                </div>
+            </div>
+
+            <div id="desc" style="margin-bottom: 20px;">
+                <div class="desc_block">
+                    <div style="width: 400px;">
+                        <h2><span s="s_title_1">两种看图模式</span></h2>
+                        <p><span s="s_desc_1">可以单张图片浏览，还可以像文档一样滚动浏览，并且可以选择多列浏览，对长图友好，看图更明白</span></p>
+                    </div>
+                    <div style="flex: 1;"></div>
+                    <div style="flex: 1;">
+                        <div class="gif_box" style="background-image: url(./images/G1.gif);"></div>
+                    </div>
+                </div>
+                <div class="desc_block">
+                    <div style="flex: 1;">
+                        <div class="gif_box" style="background-image: url(./images/G2.gif);"></div>
+                    </div>
+                    <div style="flex: 1;"></div>
+                    <div style="width: 400px;">
+                        <h2><span s="s_title_2">快捷的操做</span></h2>
+                        <p><span s="s_desc_2">优化鼠标滚轮切换图片体验。双击适配图片大小。长按快捷放大图片。支持右键菜单...</span></p>
+                    </div>
+                </div>
+                <div class="desc_block">
+                    <div style="width: 400px;">
+                        <h2><span s="s_title_3">实用的功能</span></h2>
+                        <p><span s="s_desc_3">支持置顶图片，并阻止系统休眠，方便查看图片工作。支持查看图片EXIF信息，支持多窗口</span></p>
+                    </div>
+                    <div style="flex: 1;"></div>
+                    <div style="flex: 1;">
+                        <div class="gif_box" style="background-image: url(./images/G3.gif);"></div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div style="background: #fff;">
+            <div style="max-width: 1000px; margin: 0 auto; padding: 50px 0">
+                <div style="text-align: center; margin-bottom: 60px;">
+                    <image src="./images/p1.png" style="width: 700px;height: auto; box-shadow: 0 0 40px rgba(0,0,0,0.65); background: rgba(0,0,0,0.2);"/>
+                </div>
+                <div style="text-align: center;">
+                    <div style="margin-bottom: 10px;">
+                        <a class="download_btn" href="https://wl879.github.io/apps/picview"><span s="s_free_download">免费下载</span></a>
+                    </div>
+                    <div style="font-size: 12px;"><span s="s_version">版本</span>:<span class="version"></span></div>
+                    <div style="font-size: 12px;"><span s="s_support">支持: MacOS 11.0+ 适配 M1 和 Intel 芯片</span></div>
+                </div>
+            </div>
+        </div>
+
+
+        <footer style="background: #e6e6e6; width: 100%; padding: 10px 0">
+            <div style="max-width: 600px; margin: 0 auto; text-align: center; font-size: 14px;">
+                <div style="display: flex; align-items: center;">
+                    <div><span style="font-size: 14px;">Copyright © 2021</span></div>
+                    <div style="flex:1"></div>
+                    <div>
+                        <a href="mailto:wl879@foxmail.com?subject=%5BPicture%20View%5D">
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 96 96" style="width: 26px; height:26px;" id="icon-Email">
+                                <g>
+                                    <path d="M48,0C21.5,0,0,21.5,0,48c0,26.5,21.5,48,48,48s48-21.5,48-48C96,21.5,74.5,0,48,0z M26.3,27.5h43.5c2,0,3.7,0.9,5,2.2   L48,46L21.8,29.3C23,28.2,24.5,27.5,26.3,27.5z M19.5,34.3c0-0.8,0.2-1.5,0.4-2.2l19,12.1L19.5,61V34.3z M69.7,68.5H26.3   c-2.6,0-4.9-1.5-6-3.7c0.1-0.1,0.2-0.1,0.4-0.2l21.3-18.4l5.2,3.3c0,0,0,0,0,0c0.1,0.1,0.2,0.1,0.3,0.1c0,0,0.1,0,0.1,0.1   c0.1,0,0.3,0.1,0.4,0.1c0,0,0,0,0,0h0h0c0,0,0,0,0,0c0.1,0,0.3,0,0.4-0.1c0,0,0.1,0,0.1-0.1c0.1,0,0.2-0.1,0.3-0.1c0,0,0,0,0,0   l6.2-3.8l21,18.2C75.2,66.6,72.7,68.5,69.7,68.5z M76.5,59.7L58.2,43.8l18.2-11c0.1,0.5,0.2,1,0.2,1.5V59.7z"></path>
+                                </g>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                
+                
+            </div>
+        </footer>
+        <script>
+            
+
+            ;(()=> {
+                for (let btn of document.querySelectorAll(".download_btn")) {
+                    btn.href = last_version_link
+                }
+
+                for (let btn of document.querySelectorAll(".version")) {
+                    btn.href = last_version
+                }
+
+                var lang = navigator.language|| navigator.userLanguage;//常规浏览器语言和IE浏览器
+                lang = lang.substr(0, 2);
+                if (lang !== 'zh') {
+                    for (let k in en_contents) {
+                        let targets = document.querySelectorAll("[s=\""+k+"\"]")
+                        if (targets) {
+                            for (let tar of targets) {
+                                tar.innerHTML = en_contents[k]
+                            }
+                        }
+                    }
+                }
+            })();
+
+        </script>
+    </body>
+</html>
