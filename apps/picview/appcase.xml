@@ -2,12 +2,17 @@
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <title>PictureView</title>
-        
+        <item>
+            <title>1.0</title>
+            <pubDate>周日, 27 6月 2021 22:07:05 +0800</pubDate>
+            <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
+            <enclosure url="https://wl879.github.io/apps/picview/PictureView_1.0.0.dmg" sparkle:version="1" sparkle:shortVersionString="1.0" length="3457347" type="application/octet-stream" sparkle:edSignature="mtU22NKol3gms7TgXjii/ugOnH77R7UUyNZ0bSfe5ExBoqp3bMT65AVVY3nPeGYbWO3/5L1c+U7Xx4V37J7QCQ=="/>
+        </item>
         <item>
             <title>1.1.0</title>
             <pubDate>周二, 06 7月 2021 13:38:02 +0800</pubDate>
             <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
-            <enclosure url="https://wl879.github.io/apps/picview/PictureView_1.1.0.dmg" sparkle:version="1" sparkle:shortVersionString="1.1.0" length="5008879" type="application/octet-stream" sparkle:edSignature="Vf8P9Vyfdpry31VI+y8PfS7WFbA0s8xK+aQyOIAyxl51LpIeYsRrnZaoKOl7S+VbN65KQeIFkZYyIgblKbfACA=="/>
+            <enclosure url="https://wl879.github.io/apps/picview/PictureView_1.1.0.dmg" sparkle:version="2" sparkle:shortVersionString="1.1.0" length="5008879" type="application/octet-stream" sparkle:edSignature="Vf8P9Vyfdpry31VI+y8PfS7WFbA0s8xK+aQyOIAyxl51LpIeYsRrnZaoKOl7S+VbN65KQeIFkZYyIgblKbfACA=="/>
         </item>
     </channel>
 </rss>
