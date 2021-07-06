@@ -3,16 +3,19 @@
     <channel>
         <title>PictureView</title>
         <item>
+            <title>1.1.0</title>
+            <pubDate>周二, 06 7月 2021 16:10:39 +0800</pubDate>
+            <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
+            <enclosure url="https://wl879.github.io/apps/picview/PictureView_1.1.0.dmg" sparkle:version="2" sparkle:shortVersionString="1.1.0" length="5236469" type="application/octet-stream" sparkle:edSignature="QUVSoVWgDdTcx8R7ptYb5Dbq3OvkZUw6NCAizOMWoRmPwy5mwt9ioGfjKDGPWfgoARz6Epg6iPvyne9dICsYDA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://wl879.github.io/apps/picview/PictureView2-1.delta" sparkle:version="2" sparkle:shortVersionString="1.1.0" sparkle:deltaFrom="1" length="623766" type="application/octet-stream" sparkle:edSignature="VCCxI4pTTAPG3rG1CLQ/U0VxsKk3hXJzaC7hHV3vkyWj1CFBZbw0diAd+Bxq9jGFGjJ2p+4DMrsYHGBmk9+9CA=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>1.0</title>
             <pubDate>周日, 27 6月 2021 22:07:05 +0800</pubDate>
             <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
             <enclosure url="https://wl879.github.io/apps/picview/PictureView_1.0.0.dmg" sparkle:version="1" sparkle:shortVersionString="1.0" length="3457347" type="application/octet-stream" sparkle:edSignature="mtU22NKol3gms7TgXjii/ugOnH77R7UUyNZ0bSfe5ExBoqp3bMT65AVVY3nPeGYbWO3/5L1c+U7Xx4V37J7QCQ=="/>
-        </item>
-        <item>
-            <title>1.1.0</title>
-            <pubDate>周二, 06 7月 2021 13:38:02 +0800</pubDate>
-            <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
-            <enclosure url="https://wl879.github.io/apps/picview/PictureView_1.1.0.dmg" sparkle:version="2" sparkle:shortVersionString="1.1.0" length="5008879" type="application/octet-stream" sparkle:edSignature="Vf8P9Vyfdpry31VI+y8PfS7WFbA0s8xK+aQyOIAyxl51LpIeYsRrnZaoKOl7S+VbN65KQeIFkZYyIgblKbfACA=="/>
         </item>
     </channel>
 </rss>
