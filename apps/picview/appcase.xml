@@ -12,7 +12,7 @@
             <title>1.1.0</title>
             <pubDate>周二, 06 7月 2021 13:38:02 +0800</pubDate>
             <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
-            <enclosure url="https://wl879.github.io/apps/picview/PictureView_1.1.0.dmg" sparkle:version="1" sparkle:shortVersionString="1.1.0" length="5008879" type="application/octet-stream" sparkle:edSignature="Vf8P9Vyfdpry31VI+y8PfS7WFbA0s8xK+aQyOIAyxl51LpIeYsRrnZaoKOl7S+VbN65KQeIFkZYyIgblKbfACA=="/>
+            <enclosure url="https://wl879.github.io/apps/picview/PictureView_1.1.0.dmg" sparkle:version="1" sparkle:shortVersionString="1.1" length="5008879" type="application/octet-stream" sparkle:edSignature="Vf8P9Vyfdpry31VI+y8PfS7WFbA0s8xK+aQyOIAyxl51LpIeYsRrnZaoKOl7S+VbN65KQeIFkZYyIgblKbfACA=="/>
         </item>
     </channel>
 </rss>
