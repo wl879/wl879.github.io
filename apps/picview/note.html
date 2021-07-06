@@ -1,9 +1,104 @@
 <html>
     <head>
         <title>Picture View Update Notes</title>
+        <style>
+            html, body {
+                padding:0; margin: 0
+            }
+            body {
+                font-family: 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #000;
+                /* font-weight: 340; */
+            }
+            a {
+                text-decoration:none;
+                color:#727272;
+            }
+            h1 {
+                color: #42465B; font-size: 30px;
+                margin: 0 0 10px 0;
+            }
+            h2 {
+                color: #42465B; font-size: 27px;
+                margin: 0 0 10px 0;
+                font-weight: 300;
+            }
+            h3 {
+                color: #42465B;
+                font-size: 27px;
+                margin: 0 0 10px 0;
+            }
+
+            li {
+                list-style:none;
+                font-weight: 300;
+                margin-bottom: 10px;
+            }
+
+            li::before {
+                
+                color: #fff;
+                font-size: 11px;
+                display: inline-block;
+                padding: 0 5px;
+                height: 18px;
+                line-height: 18px;
+                border-radius: 3px;
+                margin-right: 10px;
+            }
+            .new li::before {
+                content: "NEW";
+                background-color: rgb(255, 136, 25);
+            }
+
+            .fix li::before {
+                content: "FIX";
+                background-color: rgb(212, 63, 63);
+            }
+
+            .improve li::before {
+                content: "IMPROVE";
+                background-color: rgb(11, 86, 156);
+            }
+
+        </style>
     </head>
     <body>
-        <h1>Picture View Update Notes</h1>
-        <h3>...</h3>
+        <div style="max-width: 800px; margin: 0 auto">
+            <div style="display: flex;height: 100px; align-items: center;">
+                <a href="./index.html"><image src="./images/icon_512X512.png" style="display:block; width: 60px;height: 60px; margin-right: 20px;"/></a>
+                <a href="./index.html"><h1>Picture View</h1></a>
+                <div style="flex: 1"></div>
+                <div>
+                    <a href="./index.html">
+                        <svg t="1625554255346" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" width="26" height="26"><path d="M390.144 886.698667v-130.858667c0-33.152 26.965333-60.074667 60.330667-60.288h122.666666c33.536 0 60.714667 27.008 60.714667 60.288v130.474667c0 28.757333 23.381333 52.138667 52.352 52.352h83.626667a147.626667 147.626667 0 0 0 104.277333-42.666667 145.493333 145.493333 0 0 0 43.221333-103.338667V420.949333c0-31.36-13.994667-61.056-38.186666-81.152l-284.245334-225.706666a132.906667 132.906667 0 0 0-168.874666 3.029333L147.925333 339.754667A105.557333 105.557333 0 0 0 106.666667 420.992v371.328C106.666667 873.130667 172.672 938.666667 254.122667 938.666667h81.749333c13.952 0.085333 27.349333-5.333333 37.248-15.104 9.898667-9.728 15.488-23.04 15.488-36.864h1.536z" fill="#200E32"></path></svg>    
+                    </a>
+                </div>
+            </div>
+            <h2>Update Notes</h2>
+            <hr/>
+            <div>
+                <h3>1.1.0 (2021/07/06) </h3>
+                <div>
+                    <ul class="new">
+                        <li>概览看图模式下，支持拖拽图片，可直接拖拽图片导入到其它App，或拖拽到 Finder 移动图片</li>
+                        <li>添加左右滚动切换文件夹功能</li>
+                        <li>添加了按住 Command 键滚动缩放图片功能</li>
+                        <li>添加窗口管理功能，可在右键菜单与偏好设置里查看</li>
+                    </ul>
+                    <ul class="fix">
+                        <li>鼠标滚动切换图片的一些问题</li>
+                        <li>查看图片信息不能随图片改变</li>
+                    </ul>
+                    <ul class="improve">
+                        <li>支持监听文件改动，当有文件变动时会跟随更新</li>
+                        <li>在菜单栏增加了查看快捷键功能</li>
+                        <li>添加了一些快捷键</li>
+                    </ul>
+                </div>
+            </div>
+            
+
+        </div>
+        
     </body>
 </html>

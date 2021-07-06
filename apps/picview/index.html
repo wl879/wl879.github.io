@@ -63,19 +63,19 @@
 
         </style>
         <script>
-            const last_version = "1.0.0 (2021.6.26)"
-            const last_version_link = "https://wl879.github.io/apps/picview/archives/PictureView_1.0.0.dmg"
+            const last_version = "1.1.0 (2021.7.6)"
+            const last_version_link = "https://wl879.github.io/apps/picview/archives/PictureView_1.1.0.dmg"
 
             const en_contents = {
                 s_menu_home: "Home",
-                s_menu_desc: "Introduced",
+                s_menu_desc: "Update Log",
                 s_menu_about: "About",
                 s_menu_support: "Feedback",
                 s_title: "Image viewer for MacOS",
                 s_desc: "Picture View - is a lightweight MacOS photo browsing app. Small size (7.8MB), you can quickly and easily view the image, does not produce any cache, suitable for the default image viewing application. A variety of view mode, Convenient and quick operation design, support to view EXIF information, support to prevent system sleep...",
                 s_free_download: "Free Download",
                 s_version: "version",
-                s_support: "Support: MacOS 11.0+ with M1 and Intel chips",
+                s_support: "Support: MacOS 10.15+ with M1 and Intel chips",
                 s_title_1: "Two modes of looking at pictures",
                 s_desc_1: "You can browse a single image, scroll through it like a document, and you can choose to browse in multiple columns. It is friendly to long images, and you can see pictures more clearly",
                 s_title_2: "Convenient operation",
@@ -104,16 +104,17 @@
             </div>
         </div>
 
-        <div style="position: relative; max-width: 1000px; margin: 0 auto;">
+        <div style="position: relative; max-width: 1000px; min-width: 900px; margin: 0 auto;">
         
             <div style="display: flex; margin-bottom: 20px;">
                 <div style="flex: 1;"></div>
                 <div style="display: flex; line-height: 50px;">
                     <div style="margin-right: 20px;"><a href=""><span s="s_menu_home">主页</span></a></div>
-                    <div style="margin-right: 20px;"><a href="#desc"><span s="s_menu_desc">应用介绍</span></a></div>
+                    <div style="margin-right: 20px;"><a href="./note.html"><span s="s_menu_desc">日志</span></a></div>
                     <div style="margin-right: 20px;"><a href="https://support.qq.com/product/334693"><span s="s_menu_support">反馈问题</span></a></div>
                     <div><a href=""><span s="s_menu_about">关于</span></a></div>
                 </div>
+                <div style="flex: 1;"></div>
             </div>
 
             <div style="display: flex; margin-bottom: 120px; ">
@@ -128,7 +129,7 @@
                         <a class="download_btn" href="https://wl879.github.io/apps/picview"><span s="s_free_download">免费下载</span></a>
                     </div>
                     <div style="font-size: 12px;"><span s="s_version">版本</span>:<span class="version"></span></div>
-                    <div style="font-size: 12px;"><span s="s_support">支持: MacOS 11.0+ 适配 M1 和 Intel 芯片</span></div>
+                    <div style="font-size: 12px;"><span s="s_support">支持: MacOS 10.15+ 适配 M1 和 Intel 芯片</span></div>
                 </div>
             </div>
 
@@ -177,7 +178,7 @@
                         <a class="download_btn" href="https://wl879.github.io/apps/picview"><span s="s_free_download">免费下载</span></a>
                     </div>
                     <div style="font-size: 12px;"><span s="s_version">版本</span>:<span class="version"></span></div>
-                    <div style="font-size: 12px;"><span s="s_support">支持: MacOS 11.0+ 适配 M1 和 Intel 芯片</span></div>
+                    <div style="font-size: 12px;"><span s="s_support">支持: MacOS 10.15+ 适配 M1 和 Intel 芯片</span></div>
                 </div>
             </div>
         </div>
@@ -214,7 +215,7 @@
                 }
 
                 for (let btn of document.querySelectorAll(".version")) {
-                    btn.href = last_version
+                    btn.innerHTML = last_version
                 }
 
                 var lang = navigator.language|| navigator.userLanguage;//常规浏览器语言和IE浏览器
