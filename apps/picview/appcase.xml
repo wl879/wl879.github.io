@@ -3,6 +3,27 @@
     <channel>
         <title>PictureView</title>
         <item>
+            <title>1.3.2</title>
+            <pubDate>周一, 02 8月 2021 12:23:16 +0800</pubDate>
+            <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
+            <sparkle:releaseNotesLink>https://wl879.github.io/apps/picview/PictureView_1.3.2.html</sparkle:releaseNotesLink>
+            <enclosure url="https://wl879.github.io/apps/picview/PictureView_1.3.2.dmg" sparkle:version="14" sparkle:shortVersionString="1.3.2" length="5145471" type="application/octet-stream" sparkle:edSignature="DPBLhsdcO+8l46lpWkJBmB5fRy2/0i9SnsLOw1BbP1K9UPAU5EF51zsy5z4HCWITDTF0QuZ4Zv//3K6gfUABDA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://wl879.github.io/apps/picview/PictureView14-13.delta" sparkle:version="14" sparkle:shortVersionString="1.3.2" sparkle:deltaFrom="13" length="282246" type="application/octet-stream" sparkle:edSignature="QKWli4VZx6j5begPkj5z3vmVm1TI5yJma86Ur3pVP6rLs8YKG5fGd/r1X8Z11yA67v0Jw6vz1sta2DypBIr7BA=="/>
+                <enclosure url="https://wl879.github.io/apps/picview/PictureView14-8.delta" sparkle:version="14" sparkle:shortVersionString="1.3.2" sparkle:deltaFrom="8" length="750357" type="application/octet-stream" sparkle:edSignature="Zm4p2N2kCwEudkB93MUMn6/CCckELXxctYoiAWJ3r8iaZSG+Pi+Fq52ioCPA7afEzAHE3pcs5wdvoMThtWX6BQ=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>1.3.2</title>
+            <pubDate>周一, 02 8月 2021 12:20:20 +0800</pubDate>
+            <sparkle:minimumSystemVersion>10.14</sparkle:minimumSystemVersion>
+            <sparkle:releaseNotesLink>https://wl879.github.io/apps/picview/PictureView_1.3.2.html</sparkle:releaseNotesLink>
+            <enclosure url="https://wl879.github.io/apps/picview/PictureView_1.3.2.zip" sparkle:version="13" sparkle:shortVersionString="1.3.2" length="6862519" type="application/octet-stream" sparkle:edSignature="S5KL5x1Ddmbv6OJ2crJt7Ya/U/d2hEaXifickRDfEwZnq9z64+8ljamok8yxDdgS1jR3qQWfuQ9h5N9XpEuLAw=="/>
+            <sparkle:deltas>
+                <enclosure url="https://wl879.github.io/apps/picview/PictureView13-8.delta" sparkle:version="13" sparkle:shortVersionString="1.3.2" sparkle:deltaFrom="8" length="3954443" type="application/octet-stream" sparkle:edSignature="zNhRA/IejTZQg02TPJbeODSq/92RRW2IU0ooexbh1M/FzQhsBaZQWLyAPYAnb8xFtO9qS22d1Dt7qFa7hkD6Ag=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>1.3.1</title>
             <pubDate>周二, 27 7月 2021 19:30:50 +0800</pubDate>
             <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
@@ -28,27 +49,6 @@
             <pubDate>周二, 20 7月 2021 02:06:31 +0800</pubDate>
             <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
             <enclosure url="https://wl879.github.io/apps/picview/PictureView_1.2.1.dmg" sparkle:version="8" sparkle:shortVersionString="1.2.1" length="5019734" type="application/octet-stream" sparkle:edSignature="1AbbiNN+uvw+926AA2twscdYzQ+baVr2zOi1CBlAA1Wa4kt2ZY+5PCHxd0y7mdkt4lgjjRBZoJxM4pocavquAg=="/>
-        </item>
-        <item>
-            <title>1.3.2</title>
-            <pubDate>周一, 02 8月 2021 12:23:16 +0800</pubDate>
-            <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
-            <sparkle:releaseNotesLink>https://wl879.github.io/apps/picview/PictureView_1.3.2.html</sparkle:releaseNotesLink>
-            <enclosure url="https://wl879.github.io/apps/picview/PictureView_1.3.2.dmg" sparkle:version="14" sparkle:shortVersionString="1.3.2" length="5145471" type="application/octet-stream" sparkle:edSignature="DPBLhsdcO+8l46lpWkJBmB5fRy2/0i9SnsLOw1BbP1K9UPAU5EF51zsy5z4HCWITDTF0QuZ4Zv//3K6gfUABDA=="/>
-            <sparkle:deltas>
-                <enclosure url="https://wl879.github.io/apps/picview/PictureView14-13.delta" sparkle:version="14" sparkle:shortVersionString="1.3.2" sparkle:deltaFrom="13" length="282246" type="application/octet-stream" sparkle:edSignature="QKWli4VZx6j5begPkj5z3vmVm1TI5yJma86Ur3pVP6rLs8YKG5fGd/r1X8Z11yA67v0Jw6vz1sta2DypBIr7BA=="/>
-                <enclosure url="https://wl879.github.io/apps/picview/PictureView14-8.delta" sparkle:version="14" sparkle:shortVersionString="1.3.2" sparkle:deltaFrom="8" length="750357" type="application/octet-stream" sparkle:edSignature="Zm4p2N2kCwEudkB93MUMn6/CCckELXxctYoiAWJ3r8iaZSG+Pi+Fq52ioCPA7afEzAHE3pcs5wdvoMThtWX6BQ=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>1.3.2</title>
-            <pubDate>周一, 02 8月 2021 12:20:20 +0800</pubDate>
-            <sparkle:minimumSystemVersion>10.14</sparkle:minimumSystemVersion>
-            <sparkle:releaseNotesLink>https://wl879.github.io/apps/picview/PictureView_1.3.2.html</sparkle:releaseNotesLink>
-            <enclosure url="https://wl879.github.io/apps/picview/PictureView_1.3.2.zip" sparkle:version="13" sparkle:shortVersionString="1.3.2" length="6862519" type="application/octet-stream" sparkle:edSignature="S5KL5x1Ddmbv6OJ2crJt7Ya/U/d2hEaXifickRDfEwZnq9z64+8ljamok8yxDdgS1jR3qQWfuQ9h5N9XpEuLAw=="/>
-            <sparkle:deltas>
-                <enclosure url="https://wl879.github.io/apps/picview/PictureView13-8.delta" sparkle:version="13" sparkle:shortVersionString="1.3.2" sparkle:deltaFrom="8" length="3954443" type="application/octet-stream" sparkle:edSignature="zNhRA/IejTZQg02TPJbeODSq/92RRW2IU0ooexbh1M/FzQhsBaZQWLyAPYAnb8xFtO9qS22d1Dt7qFa7hkD6Ag=="/>
-            </sparkle:deltas>
         </item>
     </channel>
 </rss>
