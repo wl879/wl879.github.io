@@ -3,6 +3,16 @@
     <channel>
         <title>PictureView</title>
         <item>
+            <title>2.0.1</title>
+            <pubDate>Sat, 18 Dec 2021 16:19:01 +0800</pubDate>
+            <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
+            <sparkle:releaseNotesLink>https://wl879.github.io/apps/picview/PictureView_2.0.1.html</sparkle:releaseNotesLink>
+            <enclosure url="https://wl879.github.io/apps/picview/PictureView_2.0.1.dmg" sparkle:version="17" sparkle:shortVersionString="2.0.1" length="3828981" type="application/octet-stream" sparkle:edSignature="r7mC+SqN/3Zu3O4kmL/9S4TQPqyNJ/mQpvYDRkWkdky9jK9AQy6IzKdpyNl7VuUggVxMP8fEVZHr8jHpa3JOAQ=="/>
+            <sparkle:deltas>
+                <enclosure url="https://wl879.github.io/apps/picview/PictureView17-16.delta" sparkle:version="17" sparkle:shortVersionString="2.0.1" sparkle:deltaFrom="16" length="332645" type="application/octet-stream" sparkle:edSignature="sqsmLns8W4ASnYgrWB+HHL4UJ6Vl15MDW92NsDcAjkYCxBnMXJ2DLpT3EOtjNCJ8gqmV3IfQy/0ZoU86y4SGCA=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>2.0.0</title>
             <pubDate>Fri, 17 Dec 2021 21:25:48 +0800</pubDate>
             <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
