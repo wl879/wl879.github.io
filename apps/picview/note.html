@@ -4,70 +4,19 @@
     <head>
         <title>Picture View Update Notes</title>
         <style>
-            html, body {
-                padding:0; margin: 0;
-                background-color: #f0f0f0;
-            }
-            body {
-                font-family: 'Helvetica Neue', Arial, sans-serif; line-height: 1.2; color: #000;
-                /* font-weight: 340; */
-                padding:0 20px;
-            }
-            a {
-                text-decoration:none;
-                color:#727272;
-            }
-            h1 {
-                color: #42465B; font-size: 30px;
-                margin: 0 0 10px 0;
-            }
-            h2 {
-                color: #42465B; font-size: 27px;
-                margin: 0 0 10px 0;
-                font-weight: 300;
-            }
-            h3 {
-                color: #42465B;
-                font-size: 22px;
-                margin: 0 0 10px 0;
-            }
-
-            ul {
-                margin-left: 10px;
-                padding-inline-start:0
-            }
-
-            li {
-                list-style:none;
-                font-weight: 300;
-                margin-bottom: 6px;
-            }
-
-            li::before {
-                color: #fff;
-                font-size: 11px;
-                display: inline-block;
-                padding: 0 5px;
-                height: 18px;
-                line-height: 18px;
-                border-radius: 3px;
-                margin-right: 10px;
-                min-width: 26px;
-            }
-            .new li::before {
-                content: "NEW";
-                background-color: rgb(255, 136, 25);
-            }
-
-            .fix li::before {
-                content: "FIX";
-                background-color: rgb(212, 63, 63);
-            }
-
-            .improve li::before {
-                content: "IMPROVE";
-                background-color: rgb(11, 86, 156);
-            }
+            html, body {padding:0; margin: 0;background-color: #f0f0f0;}
+            body {font-family: 'Helvetica Neue', Arial, sans-serif; line-height: 1.2; color: #000;padding:0 20px;}
+            a {text-decoration:none;color:#727272;}
+            h1 {color:#42465B;font-size:24px;margin:0 0 10px 0;}
+            h2 {color:#42465B;font-size:20px;margin:0 0 10px 0;font-weight:300;}
+            h3 {color:#42465B;font-size:18px;margin:0 0 10px 0;}
+            p {font-size: 15px;}
+            ul {margin-left: 10px;padding-inline-start:0}
+            li {list-style:none;font-weight: 300;margin-bottom: 6px;font-size:14;}
+            li::before {color:#fff;font-size:11px;display:inline-block;padding:0 5px;height: 18px;line-height:18px;border-radius:3px;margin-right:10px;min-width:26px;}
+            .new li::before {content: "NEW";background-color: rgb(255, 165, 80);}
+            .fix li::before {content: "FIX";background-color: rgb(223, 118, 118);}
+            .improve li::before {content: "IMPROVE";background-color: rgb(11, 86, 156);}
 
         </style>
         <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -76,15 +25,14 @@
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-
             gtag('config', 'G-5CCM1EVJK1');
         </script>
     </head>
     <body>
         <div style="max-width: 800px; margin: 0 auto">
-            <div style="display: flex;height: 100px; align-items: center;">
-                <a href="./index.html"><image src="./images/icon_512X512.png" style="display:block; width: 60px;height: 60px; margin-right: 20px;"/></a>
-                <a href="./index.html"><h1>Picture View</h1></a>
+            <div style="display: flex; height: 60px; align-items: center;">
+                <a href="./index.html"><image src="./images/icon_512X512.png" style="display:block; width: 40px;height: 40px; margin-right: 10px;"/></a>
+                <a href="./index.html"><h1>Picture View<span style="display:inline-block;margin-left:10px;font-size:20px;font-weight:300;">Update Notes</span></h1></a>
                 <div style="flex: 1"></div>
                 <div>
                     <a href="./index.html">
@@ -92,8 +40,20 @@
                     </a>
                 </div>
             </div>
-            <h2>Update Notes</h2>
             <hr/>
+            <div>
+                <h3>2.2.0 (2022/02/01) </h3>
+                <p>已经上架 <a href="https://apps.apple.com/us/app/picture-view-app/id1606275031">App Store</a>，购买以支持开发者，线下版依旧免费</p>
+                <div>
+                    <ul class="new">
+                        <li>优化右键菜单</li>
+                        <li>优化收藏功能</li>
+                        <li>预览图背景色新增暗色</li>
+                        <li>新增“Get Out”功能，切换窗口时自动调整位置</li>
+                    </ul>
+                </div>
+            </div>
+
             <div>
                 <h3>2.1.1 (2022/01/21) </h3>
                 <div></div>
