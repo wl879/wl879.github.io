@@ -2,7 +2,7 @@
 
 <head>
     <title>Picture View</title>
-    <link rel="icon" href="./images/favicon.ico" type="image/x-icon" 　 />
+    <link rel="icon" href="./images/favicon.ico" type="image/x-icon"/>
     <style>
         body {
             font-family: 'Helvetica Neue', Arial, sans-serif;
@@ -87,8 +87,8 @@
         }
     </style>
     <script>
-        const last_version = "2.2.0 (2022.02.01)"
-        const last_version_link = "https://wl879.github.io/apps/picview/PictureView_2.2.0.dmg"
+        const last_version = "2.2.1 (2022.02.03)"
+        const last_version_link = "https://wl879.github.io/apps/picview/PictureView_2.2.1.dmg"
 
         const en_contents = {
             s_menu_home: "Home",
@@ -143,7 +143,7 @@
 
         <div style="display: flex; margin-bottom: 120px; ">
             <div style="width: 50%;">
-                <image src="./images/icon_512X512.png" style="display:block;width: 360px;height: auto;" />
+                <image src="./images/icon_512X512.png" style="display:block;width: 360px;height: auto; margin: 0 auto;" />
             </div>
             <div style="width: 400px;">
                 <h1>Picture View</h1>
@@ -152,11 +152,10 @@
                         是一款轻巧快速的 macOS
                         图片浏览应用。体积小巧，方便快速的查看图片，不产生缓存，适合作为默认看图应用。多种看图模式，操作方便快捷，支持查看EXIF信息，支持防止系统休眠...</span></div>
                 <div style="margin-bottom: 10px;">
-                    <a class="download_btn"><span
-                            s="s_free_download">免费下载</span></a>
+                    <a class="download_btn"><span s="s_free_download">免费下载</span></a>
                 </div>
                 <div style="font-size: 12px;">
-                    <span s="s_version">版本</span>:<span class="version"></span>
+                    <span s="s_version">版本</span>: <span class="version"></span>
                     <span style="display: inline-block; margin-left: 20px; font-size: 12px;"><a href="./note.html"
                             style="color: #5398ff;" s="s_menu_log">查看日志</a></span>
                 </div>
@@ -210,7 +209,7 @@
                     <a class="download_btn" href="https://wl879.github.io/apps/picview"><span
                             s="s_free_download">免费下载</span></a>
                 </div>
-                <div style="font-size: 12px;"><span s="s_version">版本</span>:<span class="version"></span></div>
+                <div style="font-size: 12px;"><span s="s_version">版本</span>: <span class="version"></span></div>
                 <div style="font-size: 12px;"><span s="s_support">支持: MacOS 10.15+ 适配 M1 和 Intel 芯片</span></div>
             </div>
         </div>
@@ -314,7 +313,7 @@
             for (let btn of document.querySelectorAll(".download_btn")) {
                 btn.href = last_version_link
             }
-            
+
             for (let btn of document.querySelectorAll(".version")) {
                 btn.innerHTML = last_version
             }
