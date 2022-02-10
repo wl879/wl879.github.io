@@ -3,17 +3,22 @@
     <channel>
         <title>PictureView</title>
         <item>
+            <title>2.2.2</title>
+            <pubDate>Thu, 10 Feb 2022 22:46:23 +0800</pubDate>
+            <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
+            <sparkle:releaseNotesLink>https://wl879.github.io/apps/picview/note.html</sparkle:releaseNotesLink>
+            <enclosure url="https://wl879.github.io/apps/picview/PictureView_2.2.2.dmg" sparkle:version="27" sparkle:shortVersionString="2.2.2" length="4623605" type="application/octet-stream" sparkle:edSignature="HN1UPxVOVaj5WlHvG3LGk4w6cQzwS+ienD97Qfn9OxOFVLeZYnv8yJTvSv25JZa35fkSSrBTXh1a61/kmpoeAA=="/>
+        </item>
+        <item>
             <title>2.2.1</title>
             <pubDate>Thu, 03 Feb 2022 09:37:53 +0800</pubDate>
             <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
-            <sparkle:releaseNotesLink>https://wl879.github.io/apps/picview/note.html</sparkle:releaseNotesLink>
             <enclosure url="https://wl879.github.io/apps/picview/PictureView_2.2.1.dmg" sparkle:version="26" sparkle:shortVersionString="2.2.1" length="4495858" type="application/octet-stream" sparkle:edSignature="j8hrC8fWFAjlI1RfgmK97/J8vi+falmOyZNFmDwf+Cakybz25TsSpL1VF3vi1+9k4lTwgh12FiBCOn/8SQUGAA=="/>
         </item>
         <item>
             <title>2.2.0</title>
             <pubDate>Tue, 01 Feb 2022 21:58:59 +0800</pubDate>
             <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
-            <sparkle:releaseNotesLink>https://wl879.github.io/apps/picview/note.html</sparkle:releaseNotesLink>
             <enclosure url="https://wl879.github.io/apps/picview/PictureView_2.2.0.dmg" sparkle:version="25" sparkle:shortVersionString="2.2.0" length="4209107" type="application/octet-stream" sparkle:edSignature="KACIjz5FfGG+CjBbUfaEVj7lFXlF9qtpP4w6fX/XgdKnd8J2AhZSGu5bDDSCKYcOtWk9dAZjf5Cebb9BqImTCw=="/>
         </item>
         <item>
