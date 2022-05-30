@@ -3,11 +3,17 @@
     <channel>
         <title>PictureView</title>
         <item>
+            <title>2.3.2</title>
+            <pubDate>Mon, 30 May 2022 16:17:16 +0800</pubDate>
+            <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
+            <sparkle:releaseNotesLink>https://wl879.github.io/apps/picview/note.html</sparkle:releaseNotesLink>
+            <enclosure url="https://wl879.github.io/apps/picview/PictureView_2.3.2.dmg" sparkle:version="34" sparkle:shortVersionString="2.3.2" length="4802186" type="application/octet-stream" sparkle:edSignature="xilhtfTOSm8G0DYiw72GNOPlOPFXKCTVT1c2BclH233nKSjruvJmU0RMs3sMp4qZxxO1NRR7r4wuabGShr7AAg=="/>
+        </item>
+        <item>
             <title>2.3.1</title>
             <pubDate>Sat, 21 May 2022 20:06:59 +0800</pubDate>
             <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
             <enclosure url="https://wl879.github.io/apps/picview/PictureView_2.3.1.dmg" sparkle:version="33" sparkle:shortVersionString="2.3.1" length="5018800" type="application/octet-stream" sparkle:edSignature="1a9Qpitg0RZVtc1x9EjgdpR8/AUT8zM+D4Hl3+2FBi3TQkXePfEqUAkptEs2Q19XOQ2Keem05My+VgCRxrGVAQ=="/>
-            <sparkle:releaseNotesLink>https://wl879.github.io/apps/picview/note.html</sparkle:releaseNotesLink>
         </item>
         <item>
             <title>2.3.0</title>
@@ -64,6 +70,5 @@
             <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
             <enclosure url="https://wl879.github.io/apps/picview/PictureView_2.0.4.dmg" sparkle:version="20" sparkle:shortVersionString="2.0.4" length="4013165" type="application/octet-stream" sparkle:edSignature="UjYciYMrUYAkI0WdYR1OoxPzlDj/mFcPq/9UmvwbUyWITjBy8QvfhHPyJlec1RbQe93LZ5H5kdS6t9soQmRiDg=="/>
         </item>
-        
     </channel>
 </rss>
