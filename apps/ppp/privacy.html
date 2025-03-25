@@ -1,0 +1,141 @@
+<html>
+
+<head>
+    <title>Picture View</title>
+    <link rel="icon" href="./images/favicon.ico" type="image/x-icon"/>
+    <link rel="stylesheet" href="../../css/style.css"/>
+    <style>
+        h3 {
+            font-size: 27px;
+            margin: 0 0 10px 0;
+        }
+
+        .f_light {
+            font-weight: 300;
+        }
+
+        .top_menu_bar>div {
+            margin: 0 20px;
+        }
+
+        .white_rect {
+            position: absolute;
+            background-color: #f8f8f8;
+            border-radius: 100px;
+            width: 600px;
+            height: 600px;
+        }
+
+        .desc_block {
+            display: flex;
+            align-items: center;
+            background: #fff;
+            padding: 40px 50px;
+            border-radius: 30px;
+            margin-bottom: 60px;
+        }
+
+        .desc_block p {
+            font-size: 18px;
+        }
+
+        .download_btn {
+            display: inline-block;
+            background: #28CD44;
+            height: 40px;
+            padding: 0 33px;
+            height: 40px;
+            line-height: 40px;
+            color: #fff;
+            font-size: 18px;
+            font-weight: bold;
+            border-radius: 5px;
+        }
+
+        .gif_box {
+            overflow: hidden;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.65);
+            border-radius: 5px;
+            width: 360px;
+            height: 263;
+            background-repeat: no-repeat;
+            background-size: 362px 263px;
+            background-position: center;
+        }
+    </style>
+    <script>
+        const last_version = "1.1.0 (2025.03.23)"
+        const last_version_link = "https://wl879.github.io/apps/ppp/download/ppp.1.1.crx"
+        const en_contents = {
+            s_menu_home: "Home",
+            s_menu_log: "Update Log",
+            s_menu_history: "Versions",
+            s_menu_about: "About",
+            s_menu_support: "Feedback",
+        }
+    </script>
+
+</head>
+
+<body style="padding: 0; margin: 0; background-color: #f0f0f0;">
+
+    <div class="top_bar">
+        <div style="flex: 1;"></div>
+        <div class="top_menu_bar">
+            <div><a href="https://wl879.github.io"><span s="s_menu_home">主页</span></a></div>
+        </div>
+        <div style="flex: 1;"></div>
+    </div>
+
+    <div class="page">
+        <!--  -->
+        <div id="desc" style="margin-bottom: 20px;">
+            <section style="margin: 0 auto; max-width: 700px;">
+                <h3>Privacy Policy</h3>
+                <hr/>
+                <p><b>Ppp</b> is the extension we operate. This page informs you of our policies regarding the collection, use and disclosure of Personal Information when you use our Service. We will not use or share your information with anyone except as described in this Privacy Policy. We use your Personal Information for providing and improving the Service. By using the Service, you agree to the collection and use of information in accordance with this policy. Unless otherwise defined in this Privacy Policy, terms used in this Privacy Policy have the same meanings as in our Terms and Conditions.</p>
+                <!-- <p>Ppp 是我们运营的应用程序，当您使用我们的服务时，此页面会告知您我们关于收集、使用和披露个人信息的政策。除本隐私政策中所述外，我们不会使用或与任何人共享您的信息。我们使用您的个人信息来提供和改进服务。使用本服务，即表示您同意按照本政策收集和使用信息。除非本隐私政策中另有定义，否则本隐私政策中使用的术语与我们的条款和条件具有相同的含义。</p> -->
+                <h4>Information Collection And Use</h4>
+                <p>We do not collect personally identifiable information when using our apps.</p>
+            </section>
+        </div>
+    </div>
+    <!--  -->
+    <footer class="footer">
+        <div style="max-width: 600px; margin: 0 auto; text-align: center; font-size: 14px;">
+            <div style="display: flex; align-items: center;">
+                <div><span style="font-size: 14px;">Copyright © 2021</span></div>
+                <div style="flex:1"></div>
+                <div>
+                    <a href="mailto:wl879@foxmail.com?subject=%5BPicture%20View%5D" style="margin-right: 20px;">
+                        <img src="../../css/images/mail.svg"/>
+                    </a>
+                    <a href="https://support.qq.com/product/334693">
+                        <img src="../../css/images/comment.svg"/>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+    <script>
+
+        ; (() => {
+            var lang = navigator.language || navigator.userLanguage;//常规浏览器语言和IE浏览器
+            lang = lang.substr(0, 2);
+            if (lang !== 'zh') {
+                for (let k in en_contents) {
+                    let targets = document.querySelectorAll("[s=\"" + k + "\"]")
+                    if (targets) {
+                        for (let tar of targets) {
+                            tar.innerHTML = en_contents[k]
+                        }
+                    }
+                }
+            }
+        })();
+
+    </script>
+</body>
+
+</html>
